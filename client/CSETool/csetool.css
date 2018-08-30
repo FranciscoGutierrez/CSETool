@@ -1,0 +1,104 @@
+.cse-tool-container {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cse-tool.title {
+  font-weight: 100;
+  font-size: 32px;
+  color: #424242;
+  margin-bottom: 16px;
+}
+
+.cse-tool.tool-groups {
+  display: flex;
+  justify-content: space-around;
+  width: 800px;
+}
+
+.csetool.legend {
+  width: 150px;
+}
+
+.cse-tool.ct-slider {
+  width: 240px;
+  height: 60px;
+}
+
+.cse-tool.ct-slider .slider-title {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: 300;
+  margin-bottom: 8px;
+  color: #424242;
+}
+
+.cse-tool.controls {
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+}
+
+#cse-tool-d3 svg {
+  overflow: visible;
+}
+
+#cse-tool-d3 svg circle {
+  transition: all 0.8s ease;
+}
+
+#cse-tool-d3 .sql-bad{r: 3px; fill: rgba(255, 193, 227, 1);}
+#cse-tool-d3 .sql-low{r: 3px; fill: rgba(159, 168, 218, 1);}
+#cse-tool-d3 .sql-mid{r: 3px; fill: rgba(128, 222, 234, 1);}
+#cse-tool-d3 .sql-top{r: 3px; fill: rgba(165, 214, 167, 1);}
+
+#cse-tool-d3 svg text {
+  font-size: 12px;
+  fill: #646464;
+  font-style: italic;
+  font-weight: 100;
+}
+
+.legend-item {
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.legend {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300 !important;
+    font-size: 13px !important;
+    color: #424242 !important;
+}
+
+.legend3 {
+    background-color: var(--TopStudent);
+    width: 25%;
+    text-align: center;
+    border-radius: 4px 0px 0px 4px;
+}
+.legend4 {
+    background-color: var(--MiddleStudent);
+    width: 25%;
+    text-align: center;
+}
+.legend5 {
+    background-color: var(--LowStudent);
+    width: 25%;
+    text-align: center;
+}
+.legendnot {
+    background-color: var(--BadStudent);
+    width: 25%;
+    text-align: center;
+    border-radius: 0px 4px 4px 0px;
+}
