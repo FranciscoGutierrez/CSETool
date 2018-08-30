@@ -1,5 +1,7 @@
 # CSETool
 
+Online demo: https://csetool-egdydsfqgf.now.sh/
+
 Together with the [LISSA dashboard](https://github.com/ABLE-KU-Leuven/stbd), a tool was developed for the student advisers to set the two thresholds defining the three groups in the Progression Visualization. The visualisation shows all available cohorts of students for the program at hand. The two thresholds defining the three students groups based on their cumulative study efficiency (CSE) are shown on top (“limit” in the visualization). Each student is represented by a dot. Based on the cumulative study efficiency of the student at hand the student dot is placed in on of three groups (left group CSE>limit1; middle group limit2<CSE<limit1, right group CSE< limit2). The color of the dot encodes the progression of the student. The same color coding is used as in the Progression Visualization:
 
 - A green dot represents one student who obtained the bachelor or bridging programme in nominal time.
