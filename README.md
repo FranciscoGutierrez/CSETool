@@ -26,3 +26,5 @@ meteor npm update
 bower update
 meteor
 ```
+
+In your browser (we suggest chrome) open: *http://localhost:3000*
