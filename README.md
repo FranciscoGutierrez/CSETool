@@ -11,7 +11,7 @@ The student advisers can adapt each limit by adjusting the slider. Upon interact
 
 <img src="a.png"/>
 
-## How to run this demo.
+## How to run this demo
 
 Be sure to install:
 - [git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
