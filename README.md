@@ -13,8 +13,13 @@ The student advisers can adapt each limit by adjusting the slider. Upon interact
 
 ## How to
 
-Be sure to install git and meteor in your computer.
+Be sure to install:
+- [git](https://www.linode.com/docs/development/version-control/how-to-install-git-on-linux-mac-and-windows/)
+- [npm](https://www.npmjs.com/get-npm)
+- [bower](https://bower.io/)
+- [meteor](https://www.meteor.com/install)
 
+In your favorite terminal do:
 ```
 git clone <this repository>
 meteor npm update
