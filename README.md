@@ -11,7 +11,7 @@ Together with the [LISSA dashboard](https://github.com/ABLE-KU-Leuven/stbd), a t
 
 The student advisers can adapt each limit by adjusting the slider. Upon interaction, the student dots are relocated in real time to the different groups. This tool helps the adviser to understand how the progress of students is related to their study efficiency in the first year. Furthermore, it allows them to determine the thresholds that are most appropriate for the message they want to convey in the “Progression Visualisation”.
 
-<img src="a.png"/>
+<img src="public/a.png"/>
 
 ## How to run this demo
 
